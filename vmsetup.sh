@@ -12,7 +12,7 @@ export LC_ALL=C
 
 # template vm vars
 TEMPLATE_VMID="900"
-TEMPLATE_VMSTORAGE="local"
+TEMPLATE_VMSTORAGE="datavol"
 SNIPPET_STORAGE="local"
 VMDISK_OPTIONS=",discard=on"
 
@@ -20,7 +20,7 @@ TEMPLATE_IGNITION="fcos-base-tmplt.yaml"
 
 # fcos version
 STREAMS=stable
-VERSION=32.20201018.3.0
+VERSION=41.20250331.3.0
 PLATEFORM=qemu
 BASEURL=https://builds.coreos.fedoraproject.org
 
